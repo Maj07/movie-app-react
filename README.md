@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movie App 🎬
 
-## Available Scripts
+A React project to search movie from an api.  
+Build with React, TypeScript, and some CSS.
 
-In the project directory, you can run:
+## Demo 🚀
 
-### `yarn start`
+The project is avaiable at ➡ [https://movie-app-majuran.netlify.app/ ](https://movie-app-majuran.netlify.app/)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Preset ⚠
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- **Node** : if you have not installed node yet, consider to use [nvm (Node Version Manager)](https://github.com/nvm-sh/nvm)
+- **npm** installed
 
-### `yarn test`
+## Environment files 🔒
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Please consider using an `.env` file at project root with :
 
-### `yarn build`
+```env
+REACT_APP_API_KEY=**YOUR API KEY**
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+this api key will be used when we fetch the api
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Install dependencies ⚙️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Please install the dependencies with
 
-### `yarn eject`
+```bash
+npm install #or yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Start 🛠
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the project in development run :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm start #or yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Build 📦
 
-## Learn More
+To build the project, please run :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run build #or yarn run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Your build will be avaible in `dist/`
 
-### Code Splitting
+#### Sources
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Create React App](https://github.com/facebook/create-react-app) 💻
+- [TMDB](https://www.themoviedb.org) : for this amazing API 🎞
+- [Coolors.co](https://coolors.co/palettes/trending): For color palettes 🎨
+- [Netlify](https://netlify.com) 🚀
